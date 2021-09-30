@@ -1,0 +1,17 @@
+{
+    "WooAPI": {
+      "ServiceURL": "<url rool>/wp-json/wc/v3/",
+      "Key": "<client key>",
+      "Secret": "<client secret>"
+    },
+    "SageXML": {
+      "attributes": "talla,color",
+      "sku_key": "articulo",
+      "name_key": "nombre",
+      "stock_quantity_key": "unidades",
+      "price_key": "precio"      
+    },
+    "Logs": {
+      "folder": "C:\\sagexml2woo\\logs"
+    }
+}

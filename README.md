@@ -2,7 +2,7 @@
 
 
 ## Description
-Command line utility to export and update a list of products from exported Sage 50 in XML format to [woocommerce](https://woocommerce.com/).
+Command line utility to export and update a list of products exported from Sage 50 in XML format to [woocommerce](https://woocommerce.com/).
 
 
 ---

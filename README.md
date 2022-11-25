@@ -2,7 +2,7 @@
 
 
 ## Description
-Command line utility to export and update a list of products exported from Sage 50 in XML format to [woocommerce](https://woocommerce.com/).
+Command line utility to import and update a list of products exported from Sage 50 in XML format to [woocommerce](https://woocommerce.com/).
 
 
 ---
@@ -18,7 +18,7 @@ Command line utility to export and update a list of products exported from Sage 
 
 The project uses netcoreapp3.1 framework. I recommend you to use VS Code to work with it, but only .net core 3.1 SDK is required.  Follow this:
 
-1) install [dot.net core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+1) install [dot.net core 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
 2) open a cmd, move to your <projects> folder and execute:
 

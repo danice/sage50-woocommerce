@@ -190,7 +190,7 @@ namespace WooSage.Services
                 //TestJson(existing);
                 try
                 {
-                     await wc.Product.Update((int)existing.id.Value, existing);
+                     await wc.Product.Update(existing.id.Value, existing);
                 }
                 catch (System.Exception ex)
                 {
@@ -263,7 +263,7 @@ namespace WooSage.Services
                 if (existing == null)
                 {
                     Log.Information("Adding variation: {sku}  stock: {stock} price: {price}", item.sku, item.stock_quantity, item.price);
-                    await wc.Product.Variations.Add(item, (int)data.Product.id.Value);
+                    await wc.Product.Variations.Add(item, data.Product.id.Value);
                 }
                 else if (existing.stock_quantity != item.stock_quantity 
                     || existing.attributes.Count != item.attributes.Count
@@ -299,7 +299,7 @@ namespace WooSage.Services
                     try
                     {
                         //TestJson(existing);                        
-                         await wc.Product.Variations.Update((int) existing.id.Value, existing, (int)data.Product.id.Value);                    
+                         await wc.Product.Variations.Update(existing.id.Value, existing, data.Product.id.Value);                    
                     }
                     catch (System.Exception ex)
                     {
